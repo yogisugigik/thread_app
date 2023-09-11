@@ -22,6 +22,13 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2305381990530362"
+            crossorigin="anonymous"
+          />
+        </head>
         <body className={inter.className}>
           <Topbar />
           <main className="flex flex-row">
