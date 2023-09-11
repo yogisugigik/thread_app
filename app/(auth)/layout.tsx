@@ -21,6 +21,13 @@ export default function RootLayout({
         {/* 
         bg global
         */}
+        <head>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2305381990530362"
+            crossorigin="anonymous"
+          />
+        </head>
         <body className={`${inter.className} bg-dark-1`}>
           <div className="w-full flex justify-center items-center min-h-screen">
             {children}
